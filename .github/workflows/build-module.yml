@@ -16,7 +16,7 @@ on:
         required: true
         type: string
       targets:
-        description: 'ramips'
+        description: '"ramips,"'
         required: true
         type: string
       subtargets:
