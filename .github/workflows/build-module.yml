@@ -12,15 +12,15 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'OpenWRT version (e.g., 24.10.3)'
+        description: '22.03.7'
         required: true
         type: string
       targets:
-        description: 'Targets (comma-separated, e.g., "stm32,ramips")'
+        description: 'ramips'
         required: true
         type: string
       subtargets:
-        description: 'Subtargets (comma-separated, e.g., "stm32mp1,mt7621")'
+        description: 'mt76x8'
         required: true
         type: string
 
